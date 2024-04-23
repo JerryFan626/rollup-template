@@ -1,6 +1,6 @@
 {
   "name": "@jerryfan/rollup-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rollup template，auto build、release and write changelog",
   "keywords": [],
   "license": "MIT",
