@@ -13,7 +13,8 @@
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "dev": "NODE_ENV=development rollup -c -w",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "semantic-release --debug"
   },
   "lint-staged": {
     "*.{md,json}": [
