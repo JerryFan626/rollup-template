@@ -47,6 +47,7 @@
     "@semantic-release/release-notes-generator": "^13.0.0",
     "commitlint": "^19.3.0",
     "commitlint-config-gitmoji": "^2.3.1",
+    "conventional-changelog-gitmoji-config": "^1.5.2",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "^2.25.3",
