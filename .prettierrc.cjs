@@ -1,9 +1,9 @@
-import pluginOrganizeImports from 'prettier-plugin-organize-imports';
-import pluginPackagejson from 'prettier-plugin-packagejson';
-
-export default {
+module.exports = {
   pluginSearchDirs: false,
-  plugins: [pluginOrganizeImports, pluginPackagejson],
+  plugins: [
+    require.resolve('prettier-plugin-organize-imports'),
+    require.resolve('prettier-plugin-packagejson'),
+  ],
   printWidth: 80,
   proseWrap: 'never',
   singleQuote: true,

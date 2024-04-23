@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   $schema: 'https://json.schemastore.org/commitlintrc',
   extends: ['gitmoji'],
   rules: {
