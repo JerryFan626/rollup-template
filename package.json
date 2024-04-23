@@ -4,7 +4,8 @@
   "description": "rollup template，auto build、release and write changelog",
   "keywords": [],
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/bundle.umd.js",
+  "module": "dist/bundle.esm.js",
   "files": [
     "dist"
   ],

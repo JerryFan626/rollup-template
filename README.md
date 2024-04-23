@@ -1,7 +1,13 @@
 # rollup-template
-rollup打包组件模板
 
-## 功能：
-- 自动发布npm
-- 自动写changelog
-- 支持gitmoji commit
+A template for bundling components with Rollup
+
+## Features:
+
+- Automatic npm publishing
+- Automatic changelog generation
+- Support for gitmoji commits
+
+## Package Publishing Configuration
+
+It's necessary to configure `GITHUB_TOKEN` and `NPM_TOKEN` to enable the automated packaging and publishing process via GitHub Actions.
