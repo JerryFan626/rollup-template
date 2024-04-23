@@ -1,1 +1,18 @@
-!function(e,l){e&&!e.getElementById("livereloadscript")&&((l=e.createElement("script")).async=1,l.src="//"+(self.location.host||"localhost").split(":")[0]+":35729/livereload.js?snipver=1",l.id="livereloadscript",e.getElementsByTagName("head")[0].appendChild(l))}(self.document),function(e,l){"object"==typeof exports&&"undefined"!=typeof module?l(exports):"function"==typeof define&&define.amd?define(["exports"],l):l((e="undefined"!=typeof globalThis?globalThis:e||self)["web-excel"]={})}(this,(function(e){"use strict";function l(e){console.log("Hello, ".concat(e,"!"))}l("Rollup Template!!"),e.sayHello=l}));
+(function (global, factory) {
+  typeof exports === 'object' && typeof module !== 'undefined'
+    ? factory(exports)
+    : typeof define === 'function' && define.amd
+      ? define(['exports'], factory)
+      : ((global =
+          typeof globalThis !== 'undefined' ? globalThis : global || self),
+        factory((global['web-excel'] = {})));
+})(this, function (exports) {
+  'use strict';
+
+  function sayHello(name) {
+    console.log('Hello, '.concat(name, '!'));
+  }
+  sayHello('Rollup Template!!');
+
+  exports.sayHello = sayHello;
+});
