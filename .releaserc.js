@@ -1,6 +1,4 @@
-const {
-  createConfig,
-} = require('semantic-release-config-gitmoji/lib/createConfig');
+import { createConfig } from 'semantic-release-config-gitmoji/lib/createConfig.js';
 
 const options = {
   releaseRules: [
@@ -28,7 +26,7 @@ const options = {
   ],
 };
 
-module.exports = {
+export default {
   $schema: 'https://json.schemastore.org/semantic-release',
   plugins: [
     '@semantic-release/commit-analyzer',
